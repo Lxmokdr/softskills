@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528764579265",
+    "project_id": "softskills-1e29c",
+    "storage_bucket": "softskills-1e29c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528764579265:android:78245bc2832444af9e1340",
+        "android_client_info": {
+          "package_name": "com.softskills"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrMXa6uF8-OfmUGqWNi-yk0_vwBmF93i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
