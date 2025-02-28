@@ -28,6 +28,19 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>{Baseera} wants to use your microphone</string>
+
+	<key>NSCameraUsageDescription</key>
+	<string>{Baseera} wants to use your camera</string>
+
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>{Baseera} App wants to use your local network</string>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>{Baseera} needs access to bluetooth to connect to nearby devices.</string>
+
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

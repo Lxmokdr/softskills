@@ -1,3 +1,15 @@
+buildscript {
+    ext.kotlin_version = '1.9.24'
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath "com.google.gms:google-services:4.3.15"
+    }
+}
+
 allprojects {
     repositories {
         google()
@@ -15,4 +27,9 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
+}
+configurations.all {
+    resolutionStrategy {
+        force 'com.google.firebase:firebase-storage:20.3.0'
+    }
 }

@@ -1,74 +1,89 @@
 import 'package:flutter/material.dart';
 import 'package:softskills/classes/color.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Textstyle {
-  static const TextStyle bodyText = TextStyle(
+  static final TextStyle bodyText = GoogleFonts.poppins(
     fontSize: 24,
+    fontWeight: FontWeight.w300, // Light
     color: Colors.black,
-    decoration: TextDecoration.none
+    decoration: TextDecoration.none,
   );
 
-  static const TextStyle darkText = TextStyle(
+  static final TextStyle darkText = GoogleFonts.poppins(
     fontSize: 24,
+    fontWeight: FontWeight.w300, // Light weight
     color: color.bgColor,
-    decoration: TextDecoration.none
+    decoration: TextDecoration.none,
   );
 
-    static const TextStyle whiteText = TextStyle(
+  static final TextStyle whiteText = GoogleFonts.poppins(
     fontSize: 24,
+    fontWeight: FontWeight.w400, // Regular weight
     color: Colors.white,
-    decoration: TextDecoration.none
+    decoration: TextDecoration.none,
   );
 
-  static const TextStyle darkBlue = TextStyle(
+  static final TextStyle darkBlue = GoogleFonts.poppins(
     fontSize: 24,
-    color: Color(0xff091e3a),
-    decoration: TextDecoration.none
+    fontWeight: FontWeight.w400, // Regular weight
+    color: const Color(0xff091e3a),
+    decoration: TextDecoration.none,
   );
 
-    static const TextStyle formDarkBlue = TextStyle(
+  static final TextStyle formDarkBlue = GoogleFonts.poppins(
     fontSize: 20,
-    color: Color(0xff091e3a),
+    fontWeight: FontWeight.w700, // Bold
+    color: const Color(0xff091e3a),
     decoration: TextDecoration.none,
-    fontWeight: FontWeight.bold
   );
-  
-  static const TextStyle formWhite = TextStyle(
+
+  static final TextStyle formWhite = GoogleFonts.poppins(
     fontSize: 16,
+    fontWeight: FontWeight.w700, // Bold
     color: Colors.white,
     decoration: TextDecoration.none,
-    fontWeight: FontWeight.w700
   );
 
-  static const TextStyle lightBlue = TextStyle(
+  static final TextStyle formBeige = GoogleFonts.poppins(
+    fontSize: 16,
+    fontWeight: FontWeight.w700, // Bold
+    color: color.beigeColor,
+    decoration: TextDecoration.none,
+  );
+
+  static final TextStyle lightBlue = GoogleFonts.poppins(
     fontSize: 24,
-    color: Color.fromARGB(255, 104, 182, 250),
-    decoration: TextDecoration.none
+    fontWeight: FontWeight.w400, // Regular weight
+    color: const Color.fromARGB(255, 104, 182, 250),
+    decoration: TextDecoration.none,
   );
 
-  static const TextStyle smallerWhiteTexte = TextStyle(
+  static final TextStyle smallerWhiteText = GoogleFonts.poppins(
     fontSize: 14,
-    color: Color.fromARGB(255, 255, 255, 255),
+    fontWeight: FontWeight.w400, // Regular weight
+    color: const Color.fromARGB(255, 255, 255, 255),
     decoration: TextDecoration.none,
-    fontWeight: FontWeight.normal
   );
 
-  static const TextStyle smallerDarkGreenTexte = TextStyle(
+  static final TextStyle smallerDarkGreenText = GoogleFonts.poppins(
     fontSize: 18,
+    fontWeight: FontWeight.w400, // Regular weight
     color: color.bgColor,
-    decoration: TextDecoration.none
-  );
-
-  static const TextStyle smallerDarkBlueTexte = TextStyle(
-    fontSize: 18,
-    color: Color(0xff091e3a),
     decoration: TextDecoration.none,
-    fontWeight: FontWeight.normal,
   );
 
-  static const TextStyle smallerBlueTexte = TextStyle(
+  static final TextStyle smallerDarkBlueText = GoogleFonts.poppins(
     fontSize: 18,
-    color: Color.fromARGB(255, 104, 182, 250),
-    decoration: TextDecoration.none
+    fontWeight: FontWeight.w400, // Regular weight
+    color: const Color(0xff091e3a),
+    decoration: TextDecoration.none,
+  );
+
+  static final TextStyle smallerBlueText = GoogleFonts.poppins(
+    fontSize: 18,
+    fontWeight: FontWeight.w400, // Regular weight
+    color: const Color.fromARGB(255, 104, 182, 250),
+    decoration: TextDecoration.none,
   );
 }

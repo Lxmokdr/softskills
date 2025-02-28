@@ -9,10 +9,23 @@
       "client_info": {
         "mobilesdk_app_id": "1:528764579265:android:78245bc2832444af9e1340",
         "android_client_info": {
-          "package_name": "com.softskills"
+          "package_name": "com.example.softskills"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "528764579265-k5boqj5hcv1q15pbs1s503br2isre8o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softskills",
+            "certificate_hash": "4e1afda95236796c789cf0cc66bd390fd0491ce5"
+          }
+        },
+        {
+          "client_id": "528764579265-qk85gjclsj6ftjmeg6j2lc2qda9g3agp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCrMXa6uF8-OfmUGqWNi-yk0_vwBmF93i0"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528764579265-qk85gjclsj6ftjmeg6j2lc2qda9g3agp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "528764579265-gom9l2kpkj5nqtre83v9b1ture0n3irk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.baseera"
+              }
+            }
+          ]
         }
       }
     }
